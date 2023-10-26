@@ -1,13 +1,13 @@
 # Experiment-2--Implementation-of-Perceptron
-##AIM:
+## AIM:
 
 To implement a perceptron for classification using Python
 
-##EQUIPMENTS REQUIRED:
+## EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
-##RELATED THEORETICAL CONCEPT:
+## RELATED THEORETICAL CONCEPT:
 A Perceptron is a basic learning algorithm invented in 1959 by Frank Rosenblatt. It is meant to mimic the working logic of a biological neuron. The human brain is basically a collection of many interconnected neurons. Each one receives a set of inputs, applies some sort of computation on them and propagates the result to other neurons.
 A Perceptron is an algorithm used for supervised learning of binary classifiers.Given a sample, the neuron classifies it by assigning a weight to its features. To accomplish this a Perceptron undergoes two phases: training and testing. During training phase weights are initialized to an arbitrary value. Perceptron is then asked to evaluate a sample and compare its decision with the actual class of the sample.If the algorithm chose the wrong class weights are adjusted to better match that particular sample. This process is repeated over and over to finely optimize the biases. After that, the algorithm is ready to be tested against a new set of completely unknown samples to evaluate if the trained model is general enough to cope with real-world samples.
 The important Key points to be focused to implement a perceptron:
@@ -23,7 +23,7 @@ A threshold function, usually Heaviside or sign functions, maps the scalar value
 Indeed if the neuron output is exactly zero it cannot be assumed that the sample belongs to the first sample since it lies on the boundary between the two classes. Nonetheless for the sake of simplicity,ignore this situation.
 
 
-##ALGORITHM:
+## ALGORITHM:
 
 1) Importing the libraries
 2) Importing the dataset
@@ -41,7 +41,7 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 11) Plot the error for each iteration 
 12) Print the accuracy
 
-##PROGRAM:
+## PROGRAM:
 ```
 Developed by : Prasannalakshmi G
 Reg No : 212222240075
@@ -118,11 +118,11 @@ plt.ylabel('Errors')
 plt.show()
 ```
 
-##OUTPUT :
+## OUTPUT :
 ![276582263-742c13ad-0f1b-47dc-a922-30f6ce9c4096](https://github.com/Prasannalakshmiganesan/Experiment-2--Implementation-of-Perceptron/assets/118610231/8b5b79f8-4d0d-4922-b113-692f842ef41e)
 
 ![276582407-a0ef6c4f-263d-4b8d-b9fc-58bb014c7f07](https://github.com/Prasannalakshmiganesan/Experiment-2--Implementation-of-Perceptron/assets/118610231/586934c1-ee08-4c76-ae5a-e3f9b0f77efa)
 
 
-##RESULT:
+## RESULT:
 Thus ,a perceptron for classification using Python is executed successfully.
